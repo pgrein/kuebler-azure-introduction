@@ -1,0 +1,10 @@
+{
+  "service_principal": {
+    "client_id": "bbb552e2-c4b6-41aa-a74f-8e79fab86d99",
+    "client_display_name": "terraform-admin.customs.devcom.com",
+    "client_name": "http://terraform-admin.customs.devcom.com",
+    "client_secret": "",
+    "subscription_id": "abab7077-7059-4684-bdab-d45388efa023",
+    "tenant_id": "728e55cd-1967-42d9-8b16-8b797808fbc0"
+  }
+}

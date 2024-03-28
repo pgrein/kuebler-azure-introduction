@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  labels:
+    app: test-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: test-deployment
+  template:
+    metadata:
+      labels:
+        app: test-deployment
+    spec:
+      containers:
+        - name: nginx
+          image: nginx:stable-alpine3.17-slim
+          ports:
+            - containerPort: 80
+              name: http
